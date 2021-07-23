@@ -1,0 +1,56 @@
+body{
+	background-color: grey;
+	text-align: center;
+}
+
+
+#banner{
+	display: flex;
+	width: 100%;
+}
+
+h1, #banner>h2{
+	position: absolute;
+}
+
+#banner>h2{
+	font-size: 300%;
+}
+
+h1{
+	font-size: 500%;
+}
+
+div{
+	display: block;
+}
+
+p{
+	font-size: 200px;
+}
+
+li{
+	font-size: 150px;
+}
+
+h2{
+	font-size: 300px;
+}
+.card{
+	display: flex;
+	justify-content: space-evenly; 
+	object-fit: cover;
+}
+
+.image{
+	border-radius: 50%;
+}
+.container{
+	border: 1px solid black;
+}
+
+.col-md-6, .col-sm-12{
+	border: 1px solid black;
+	font-size: 500%;
+	padding: 20px;
+}
